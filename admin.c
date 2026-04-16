@@ -89,8 +89,8 @@ void editAlat() {
         unsigned int id, tahun, jumlah;
         char nama[50], merek[50], model[50];
 
-        int hasil = sscanf(line, "%u|%[^|]|%[^|]|%[^|]|%u|%u",
-                           &id, nama, merek, model, &tahun, &jumlah);
+        int hasil = scanf(line, "%u|%[^|]|%[^|]|%[^|]|%u|%u",
+        &id, nama, merek, model, &tahun, &jumlah);
 
         if (hasil != 6) continue;
 
@@ -149,11 +149,11 @@ void menuAdmin() {
         printf("Pilih: ");
         scanf("%d", &pilih);
 
-        if (pilih == 1) lihatAlat(); // pakai dari user.c
+        if (pilih == 1) lihatAlat(); 
         if (pilih == 2) tambahAlat();
         if (pilih == 3) editAlat();
         if (pilih == 4) hapusAlat();
         if (pilih == 5) tambahAkun();
 
-    } while (pilih != 60);
+    } while (pilih != 6);
 }

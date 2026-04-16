@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-1|Multimeter|Fluke|F87|2020|5
-2|Osiloskop|Rigol|DS1054Z|2021|3
-3|PowerSupply|GWInstek|GPS-3030|2019|47
-=======
+
 1|Komputer|Dell|OptiPlex 7090|2023|6
 2|Meja|Ikea|LINNMON|2022|4
 3|Kursi|Informa|EO-12|2022|20
@@ -11,4 +7,14 @@
 6|Kabel|Vention|HDMI 2.0 cable3M|2024|7
 7|spidol papan tulis|Snowman|Boerd Maker|2023|5
 8|Mouse|Logitech|M100|2023|4
->>>>>>> e6c18ce715e10b86f56ad15e4d2ae606a19191ec
+9|Penghapus Papan Tulis|Joyko|Whiteboard eraser|2024|8
+10|Wayerless|TP-link|Acher T2U Nano|2024|7
+11|Laptop|Asus|VivoBook 14|2023|3
+12|Lan |Cat 6|m56|2017|3
+13|motherboad|prime H4810|C66|2021|215|Printer|Canon|PIXMA G3010|2022|3
+16|Scanner|Epson|Perfection V39|2021|2
+17|Keyboard|Logitech|K120|2023|6
+18|Monitor|Samsung|LF24T350|2022|5
+19|Flashdisk|Sandisk|Cruzer Blade 32GB|2023|10
+20|Harddisk Eksternal|Seagate|Expansion 1TB|2022|4
+
