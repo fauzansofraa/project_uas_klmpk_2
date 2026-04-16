@@ -1,4 +1,5 @@
-admin admin123 admin
-user user123 user
-aa aa user
-Hilal 123123 user
+fauzan  12345678 admin
+habib 456 admin
+faiz 321 admin
+nabil 123 user
+kaisha 0605 user
