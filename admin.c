@@ -89,8 +89,8 @@ void editAlat() {
         unsigned int id, tahun, jumlah;
         char nama[50], merek[50], model[50];
 
-        int hasil = scanf(line, "%u|%[^|]|%[^|]|%[^|]|%u|%u",
-        &id, nama, merek, model, &tahun, &jumlah);
+        int hasil = sscanf(line, "%u|%[^|]|%[^|]|%[^|]|%u|%u",
+            &id, nama, merek, model, &tahun, &jumlah);
 
         if (hasil != 6) continue;
 
