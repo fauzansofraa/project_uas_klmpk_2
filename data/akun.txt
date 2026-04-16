@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 admin admin123 admin
 user user123 user
 aa aa user
 Hilal 123123 user
+=======
+fauzan  12345678 admin
+habib 456 admin
+faiz 321 admin
+nabil 123 user
+kaisha 0605 user
+>>>>>>> e6c18ce715e10b86f56ad15e4d2ae606a19191ec

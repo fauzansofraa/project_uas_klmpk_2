@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 Hilal|Multimeter
 Fauzan|Komputer
 Sofra|PC
+=======
+kaisha|Proyektor
+nabil|Komputer
+Sofra|PC
+faiz |Meja
+habib|Kursi
+>>>>>>> e6c18ce715e10b86f56ad15e4d2ae606a19191ec
