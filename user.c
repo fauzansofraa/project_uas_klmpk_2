@@ -14,3 +14,17 @@ void lihatAlat() {
 
     fclose(f);
 }
+void pinjam(char *user) {
+    FILE *f = fopen("data/pinjam.txt", "a");
+
+    char namaAlat[50];
+
+    printf("Masukkan nama alat: ");
+    scanf(" %[^\n]", namaAlat);
+
+    fprintf(f, "%s|%s\n", user, namaAlat);
+
+    fclose(f);
+
+    printf("Berhasil pinjam %s\n", namaAlat);
+}
