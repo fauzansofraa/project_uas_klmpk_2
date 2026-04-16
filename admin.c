@@ -120,3 +120,17 @@ void editAlat() {
     else
         printf("ID tidak ditemukan!\n");
 }
+
+void tambahAkun() {
+    FILE *f = fopen("data/akun.txt", "a");
+
+    char u[50], p[50];
+
+    printf("Username: "); scanf("%s", u);
+    printf("Password: "); scanf("%s", p);
+
+    fprintf(f, "%s %s user\n", u, p);
+    fclose(f);
+
+    printf("Akun berhasil ditambahkan!\n");
+}
