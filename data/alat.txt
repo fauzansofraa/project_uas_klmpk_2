@@ -3,3 +3,6 @@
 3|Kursi|Informa|EO-12|2022|20
 4|proyektor|Epson|EB-X06|2024|5
 5|PC|HP|ProDesk|400 G7|2023|5
+6|Kabel|Vention|HDMI 2.0 cable3M|2024|7
+7|spidol papan tulis|Snowman|Boerd Maker|2023|5
+8|Mouse|Logitech|M100|2023|4
