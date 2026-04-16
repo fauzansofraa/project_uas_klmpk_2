@@ -1,20 +1,17 @@
-
 1|Komputer|Dell|OptiPlex 7090|2023|6
 2|Meja|Ikea|LINNMON|2022|4
 3|Kursi|Informa|EO-12|2022|20
 4|proyektor|Epson|EB-X06|2024|5
-5|PC|HP|ProDesk|400 G7|2023|5
-6|Kabel|Vention|HDMI 2.0 cable3M|2024|7
+6|Cas|C56|M89|2019|12
 7|spidol papan tulis|Snowman|Boerd Maker|2023|5
 8|Mouse|Logitech|M100|2023|4
 9|Penghapus Papan Tulis|Joyko|Whiteboard eraser|2024|8
 10|Wayerless|TP-link|Acher T2U Nano|2024|7
 11|Laptop|Asus|VivoBook 14|2023|3
 12|Lan |Cat 6|m56|2017|3
-13|motherboad|prime H4810|C66|2021|215|Printer|Canon|PIXMA G3010|2022|3
+13|motherboad|prime H4810|C66|2021|215
 16|Scanner|Epson|Perfection V39|2021|2
 17|Keyboard|Logitech|K120|2023|6
-18|Monitor|Samsung|LF24T350|2022|5
+18|Pc|Hp|C89|2019|20
 19|Flashdisk|Sandisk|Cruzer Blade 32GB|2023|10
-20|Harddisk Eksternal|Seagate|Expansion 1TB|2022|4
-
+23|Rom|C68|78U86|2010|2
