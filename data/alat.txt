@@ -1,3 +1,5 @@
-1|Multimeter|Fluke|F87|2020|5
-2|Osiloskop|Rigol|DS1054Z|2021|3
-3|PowerSupply|GWInstek|GPS-3030|2019|47
+1|Komputer|Dell|OptiPlex 7090|2023|6
+2|Meja|Ikea|LINNMON|2022|4
+3|Kursi|Informa|EO-12|2022|20
+4|proyektor|Epson|EB-X06|2024|5
+5|PC|HP|ProDesk|400 G7|2023|5
