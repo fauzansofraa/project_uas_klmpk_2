@@ -6,7 +6,7 @@
 
 int main(int argc, char *argv[]) {
     if (argc != 3) {
-        printf("Usage: ./app username password\n");
+        printf("Pakai: ./app username password\n");
         return 1;
     }
 
