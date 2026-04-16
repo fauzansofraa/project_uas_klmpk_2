@@ -7,3 +7,5 @@ int loginUser(char *user, char *pass, char *role) {
     if (!f) return 0;
 
     char u[50], p[50], r[10];
+
+    
