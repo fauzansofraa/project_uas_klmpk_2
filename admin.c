@@ -25,3 +25,47 @@ void tambahAlat() {
 
     fclose(f);
 }
+void hapusAlat() {
+    FILE *f = fopen("data/alat.txt", "r");
+    FILE *temp = fopen("data/temp.txt", "w");
+
+    if (!f || !temp) {
+        printf("Gagal buka file!\n");
+        return;
+    }
+
+    char line[200];
+    unsigned int target;
+    int found = 0;
+
+    printf("Masukkan ID alat yang dihapus: ");
+    scanf("%u", &target);
+
+    while (fgets(line, sizeof(line), f)) {
+        unsigned int id, tahun, jumlah;
+        char nama[50], merek[50], model[50];
+
+        int hasil = sscanf(line, "%u|%[^|]|%[^|]|%[^|]|%u|%u",
+            &id, nama, merek, model, &tahun, &jumlah);
+
+        if (hasil != 6) continue;
+
+        if (id != target) {
+            fprintf(temp, "%u|%s|%s|%s|%u|%u\n",
+                id,nama,merek,model,tahun,jumlah);
+        } else {
+            found = 1;
+        }
+    }
+
+    fclose(f);
+    fclose(temp);
+
+    remove("data/alat.txt");
+    rename("data/temp.txt", "data/alat.txt");
+
+    if (found)
+        printf("Alat berhasil dihapus!\n");
+    else
+        printf("ID tidak ditemukan!\n");
+}
