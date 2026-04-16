@@ -134,3 +134,26 @@ void tambahAkun() {
 
     printf("Akun berhasil ditambahkan!\n");
 }
+
+void menuAdmin() {
+    int pilih;
+
+    do {
+        printf("\n=== MENU ADMIN ===\n");
+        printf("1. Lihat Alat\n");
+        printf("2. Tambah Alat\n");
+        printf("3. Edit Alat\n");
+        printf("4. Hapus Alat\n");
+        printf("5. Tambah User\n");
+        printf("6. Keluar\n");
+        printf("Pilih: ");
+        scanf("%d", &pilih);
+
+        if (pilih == 1) lihatAlat(); // pakai dari user.c
+        if (pilih == 2) tambahAlat();
+        if (pilih == 3) editAlat();
+        if (pilih == 4) hapusAlat();
+        if (pilih == 5) tambahAkun();
+
+    } while (pilih != 60);
+}
