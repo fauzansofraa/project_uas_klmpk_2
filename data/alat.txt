@@ -6,3 +6,5 @@
 6|Kabel|Vention|HDMI 2.0 cable3M|2024|7
 7|spidol papan tulis|Snowman|Boerd Maker|2023|5
 8|Mouse|Logitech|M100|2023|4
+9|Penghapus Papan Tulis|Joyko|Whiteboard eraser|2024|8
+10|Wayerless|TP-link|Acher T2U Nano|2024|7
