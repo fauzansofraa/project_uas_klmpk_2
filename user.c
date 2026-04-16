@@ -47,3 +47,23 @@ void lihatPinjam(char *user) {
 
     fclose(f);
 }
+void menuUser(char *user) {
+    int pilih;
+
+    do {
+        printf("\n=== USER ===\n");
+        printf("1. Lihat Alat\n");
+        printf("2. Pinjam\n");
+        printf("3. Lihat Pinjaman\n");
+        printf("4. Kembalikan\n");
+        printf("5. Keluar\n");
+        printf("Pilih: ");
+        scanf("%d", &pilih);
+
+        if (pilih == 1) lihatAlat();
+        if (pilih == 2) pinjam(user);
+        if (pilih == 3) lihatPinjam(user);
+        if (pilih == 4) kembalikan(user);
+
+    } while (pilih != 5);
+}
