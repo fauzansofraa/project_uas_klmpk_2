@@ -66,4 +66,39 @@ void menuUser(char *user) {
         if (pilih == 4) kembalikan(user);
 
     } while (pilih != 5);
+}void kembalikan(char *user) {
+    FILE *f = fopen("data/pinjam.txt", "r");
+    FILE *temp = fopen("data/temp.txt", "w");
+
+    if (!f || !temp) {
+        printf("Gagal buka file!\n");
+        return;
+    }
+
+    char u[50], alat[50];
+    char target[50];
+    int found = 0;
+
+    printf("Masukkan nama alat yang dikembalikan: ");
+    scanf(" %[^\n]", target);
+
+    while (fscanf(f, "%[^|]|%[^\n]\n", u, alat) != EOF) {
+        if (strcmp(u, user) == 0 && strcmp(alat, target) == 0) {
+            found = 1;
+            continue; // skip (hapus dari file)
+        }
+
+        fprintf(temp, "%s|%s\n", u, alat);
+    }
+
+    fclose(f);
+    fclose(temp);
+
+    remove("data/pinjam.txt");
+    rename("data/temp.txt", "data/pinjam.txt");
+
+    if (found)
+        printf("Alat berhasil dikembalikan!\n");
+    else
+        printf("Data tidak ditemukan!\n");
 }
